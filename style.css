@@ -303,8 +303,7 @@ hr {
    
     .sacred-games-video {
           bottom: 437px;
-    left: 0px;
-  
+          left: 0px;
     }
 }
 
@@ -332,6 +331,15 @@ hr {
     left: -2px;
     z-index: 0;
    }
+   .sacred-games-video {
+    bottom: 274px;
+    width: 250px;
+    left: 0px;
+   }
+   .kids-img{
+    width: 320px;
+    margin: auto;
+   }
 }
 
 /* phone */
@@ -357,6 +365,7 @@ hr {
         width: 250px;
         left: 0px;
     }
+    
 }
 
 
