@@ -21,6 +21,9 @@ hr {
 .white-color {
     color: white;
 }
+.blue-color {
+    color: #0071eb;
+}
 
 .flex-col {
     /* border: 2px solid white; */
@@ -185,11 +188,11 @@ hr {
 }
 
 .enjoy-tv {
-    padding: 100px 180px;
+    padding: 100px 180px 0px 180px;
 }
 .enjoy-tv-text {
     font-weight: 900;
-    font-size: 50px;
+    font-size: 48px;
     font-family: Netflix-font;
     /* text-align: center; */
     align-items: center;
@@ -198,7 +201,7 @@ hr {
 
 .smart-tv-text {
     font-weight: 400;
-    font-size: 35px;
+    font-size: 30px;
     font-family: Netflix-font;
     margin-top: 20px;
     padding-bottom: 33px;
@@ -220,6 +223,44 @@ hr {
 } 
 
 
+.download-your-shows {
+    font-weight: 900;
+    font-size: 48px;
+    font-family: Netflix-font;
+    /* text-align: center; */
+    align-items: center;
+}
+.save-your-fav {
+    font-weight: 400;
+    font-size: 30px;
+    font-family: Netflix-font;
+    margin-top: 20px;
+    padding-bottom: 33px;
+}
+
+.download-fav-div {
+    padding: 100px 180px 110px 180px;
+
+}
+
+.download-show-fav{
+    
+    padding-top: 0;
+    margin-top: 200px;
+}
+
+.st-flex {
+    /* background-color: white; */
+    
+    justify-content:center;
+    align-items: center;
+    width: 350px;
+    margin-left: 140px;
+    border: 1px solid gray;
+    /* border: 1px solid red; */
+
+    border-radius: 12px;
+}
 
 
 /*  */
@@ -231,7 +272,7 @@ hr {
         align-items: center;
         flex-direction: column;
         text-align: center;
-        padding-top: 50px;
+        /* padding-top: 50px; */
     }
     .enjoy-tv-text-1 {
         margin-top: 100px;
@@ -246,6 +287,12 @@ hr {
     bottom: 384px;
     left: 0px;
     z-index: 0;
+   }
+   .download-fav-flex {
+        align-items: center;
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 0px;
    }
 }
 
@@ -285,6 +332,13 @@ hr {
     .input-bg{
         width: 320px;
         height: 50px;
+     }
+     .phone-st-img  {
+        width: 400px;
+     }
+     .st-flex {
+        width: 300px;
+        margin: auto;
      }
 }
 
