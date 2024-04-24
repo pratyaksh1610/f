@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+.flex-col {
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flex-row {
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.background-img {
+    height: 500px;
+    background-image: url("./images/netflix-cover-page-bg.jpg");
+      /* Background image is centered vertically and horizontally at all times */
+      background-position: center center;
+
+      /* Background image doesn't tile */
+      background-repeat: no-repeat;
+  
+      /* Background image is fixed in the viewport so that it doesn't move when
+      the content's height is greater than the image's height */
+      /* background-attachment: fixed; */
+  
+      /* This is what makes the background image rescale based
+      on the container's size */
+      background-size: cover;
+}
+
+.netflix-image {
+    width: 9.25rem;
+    height: 2rem;
+}
+.netflix-flex-image {
+    flex-grow: 1;
+}
+.nav-bar {
+    padding: 15px 140px 15px 140px;
+    justify-content: left;
+}
+
+
+.language-btn-div{ 
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    padding: 6px 20px;
+    margin-right: 10px;
+    border: 1px solid gray;
+}
+
+
+.lang-btn {
+    background-color: black;
+    color: white;
+    border: 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.language-select-icon {
+    margin-right: 4px;
+}
+
+
+.signin {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    text-justify: bold;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 6px;
+    padding: 6px 16px;
+
+}
+
+.signin:hover {
+    background-color: rgb(163, 0, 0);
+    transition: all .5s ease;
+}
