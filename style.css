@@ -258,8 +258,14 @@ hr {
     margin-left: 140px;
     border: 1px solid gray;
     /* border: 1px solid red; */
-
     border-radius: 12px;
+}
+
+.sacred-games-video {
+    z-index: 0;
+    position: relative;
+    bottom: 435px;
+    left: 118px;
 }
 
 
@@ -294,6 +300,12 @@ hr {
         text-align: center;
         padding-top: 0px;
    }
+   
+    .sacred-games-video {
+          bottom: 437px;
+    left: 0px;
+  
+    }
 }
 
 /* tablet */
@@ -340,6 +352,11 @@ hr {
         width: 300px;
         margin: auto;
      }
+    .sacred-games-video {
+        bottom: 274px;
+        width: 250px;
+        left: 0px;
+    }
 }
 
 
