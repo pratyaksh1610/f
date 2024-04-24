@@ -1,7 +1,25 @@
+@font-face {
+    src: url(./fonts/NetflixSans-Regular.otf);
+    font-family: Netflix-font;
+}
+
 * {
     padding: 0;
     margin: 0;
     color: black;
+}
+body {
+    background-color: black;
+}
+hr {
+    border: 4px solid rgb(35,35,35);
+}
+
+.black-bg {
+    background-color: black;
+}
+.white-color {
+    color: white;
 }
 
 .flex-col {
@@ -17,7 +35,7 @@
     justify-content: center;
 }
 .background-img {
-    height: 500px;
+    height: 1000px;
     background-image: url("./images/netflix-cover-page-bg.jpg");
       /* Background image is centered vertically and horizontally at all times */
       background-position: center center;
@@ -63,6 +81,7 @@
     color: white;
     border: 0px;
     font-size: 16px;
+    font-family: Netflix-font;
     font-weight: 400;
 }
 .language-select-icon {
@@ -77,6 +96,7 @@
     border-radius: 4px;
     font-size: 18px;
     font-weight: 400;
+    font-family: Netflix-font;
     border-radius: 6px;
     padding: 6px 16px;
 
@@ -86,3 +106,206 @@
     background-color: rgb(163, 0, 0);
     transition: all .5s ease;
 }
+
+.email-box-div {
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.unlimited-movies {
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    padding: 0px 8px;
+    font-family: Netflix-font;
+}
+.watch {
+    margin-top: 16px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 0px 8px;
+    font-family: Netflix-font;
+}
+.ready-to-watch {
+    margin-top: 16px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0px 10px;
+    font-family: Netflix-font;
+}
+
+
+.email-address-div {
+    margin-top: 16px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    padding: 6px 20px;
+    margin-right: 10px;
+    border: 1px solid gray;
+    width: 350px;
+    height: 50px;
+
+    
+}
+.input-bg{
+    background-color: black;
+    color: white;
+    border: 0px solid transparent;
+    font-family: Netflix-font;
+    /* outline: none; */
+    width: 350px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.input-bg:focus {
+    outline: none;
+}
+
+.get-started-div {
+    font-weight: 500;
+    text-align: center;
+    font-size: 24px;
+    font-family: Netflix-font;
+    margin-top: 16px;
+    border-radius: 6px;
+    padding: 16px;
+    width: 180px;
+    background-color: rgb(229, 9, 20);
+}
+
+.get-started-div:hover {
+    background-color: rgb(163, 0, 0);
+    transition: all .5s ease;
+}
+
+.enjoy-tv {
+    padding: 100px 180px;
+}
+.enjoy-tv-text {
+    font-weight: 900;
+    font-size: 50px;
+    font-family: Netflix-font;
+    /* text-align: center; */
+    align-items: center;
+
+}
+
+.smart-tv-text {
+    font-weight: 400;
+    font-size: 35px;
+    font-family: Netflix-font;
+    margin-top: 20px;
+    padding-bottom: 33px;
+}
+.enjoy-tv-text-1{
+    padding-top: 0;
+    margin-top: -200px;
+}
+
+ .tv-img {
+    position: relative;
+    z-index: 1;
+}
+.enjoy-on-your-tv-video {
+    position: relative;
+    bottom:385px;
+    left: 84px;
+    z-index: 0;
+} 
+
+
+
+
+/*  */
+/* media auery */
+/*  */
+/* laptop */
+@media (max-width:1200px ){
+    .enjoy-tv-flex-dir {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .enjoy-tv-text-1 {
+        margin-top: 100px;
+    }
+       
+   .tv-img {
+    position: relative;
+    z-index: 1;
+   }
+   .enjoy-on-your-tv-video  {
+    position: relative;
+    bottom: 384px;
+    left: 0px;
+    z-index: 0;
+   }
+}
+
+/* tablet */
+@media (max-width:650px) {
+    .email-get-started-div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .netflix-image {
+        display: none;
+    }
+    .language-select-signin-div {
+        text-align: right;
+    }
+   .tv-img {
+    width: 400px;
+    position: relative;
+    z-index: 1;
+   }
+   .enjoy-on-your-tv-video  {
+    width: 289px;
+    position: relative;
+    bottom: 240px;
+    left: -2px;
+    z-index: 0;
+   }
+}
+
+/* phone */
+@media (max-width:400px) {
+    .email-address-div {
+      padding: 6px 20px;
+        width: 320px;
+        height: 50px;
+    }
+    .input-bg{
+        width: 320px;
+        height: 50px;
+     }
+}
+
+
+/* greater than laptop screen size */
+@media (min-width:2900px) {
+    
+    .tv-img {
+        width: 1000px;
+        position: relative;
+        z-index: 1;
+    }
+       .enjoy-on-your-tv-video  {
+        width: 725px;
+        position: relative;
+        bottom: 596px;
+        left: 134px;
+        z-index: 0;
+       }
+
+    
+}
+
+
