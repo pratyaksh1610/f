@@ -82,6 +82,7 @@ hr {
 .lang-btn {
     background-color: black;
     color: white;
+    outline: none;
     border: 0px;
     font-size: 16px;
     font-family: Netflix-font;
