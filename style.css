@@ -361,6 +361,19 @@ table {
           bottom: 437px;
           left: 0px;
     }
+    .faq-flex {
+        flex-direction: column;
+    }
+    .flex-row-faq-flex {
+        flex-direction: column;
+        width: auto;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+    }
+    .faq-text-div {
+        text-align: center;
+    }
 }
 
 /* tablet */
@@ -370,6 +383,9 @@ table {
         align-items: center;
     }
     .netflix-image {
+        display: none;
+    }
+    .language-select-nav-bar {
         display: none;
     }
     .language-select-signin-div {
