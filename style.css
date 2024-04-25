@@ -244,7 +244,6 @@ hr {
 }
 
 .download-show-fav{
-    
     padding-top: 0;
     margin-top: 200px;
 }
@@ -266,6 +265,32 @@ hr {
     position: relative;
     bottom: 435px;
     left: 118px;
+}
+
+.faq-flex {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row-faq-flex {
+    background-color: rgb(45, 45, 45);
+    padding: 20px;
+    width: 1100px;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+.flex-row-faq-flex:hover {
+    background-color: rgb(60, 60, 60);
+    transition: all .5s ease;
+}
+.faq-ques  {
+    /* justify-content: left; */
+    flex-grow: 1;
+    font-family: Netflix-font;
+    font-weight: 400;
+    font-size: 27px;
+
 }
 
 
