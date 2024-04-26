@@ -59,25 +59,15 @@ hr {
     width: 9.25rem;
     height: 2rem;
 }
-.netflix-flex-image {
-    flex-grow: 1;
+.language-select-signin-div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
 .nav-bar {
-    padding: 15px 140px 15px 140px;
-    justify-content: left;
+    padding: 15px 130px 15px 130px;
+    justify-content: space-between;
 }
-
-
-.language-btn-div{ 
-    background-color: black;
-    justify-content: center;
-    align-items: center;
-    border-radius: 6px;
-    padding: 6px 20px;
-    margin-right: 10px;
-    border: 1px solid gray;
-}
-
 
 .lang-btn {
     background-color: black;
@@ -98,13 +88,23 @@ hr {
     color: white;
     text-justify: bold;
     border-radius: 4px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     font-family: Netflix-font;
     border-radius: 6px;
-    padding: 6px 16px;
-
+    padding: 6px 8px;
 }
+
+.language-btn-div{ 
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    padding: 6px 10px;
+    margin-right: 10px;
+    border: 1px solid gray;
+}
+
 
 .signin:hover {
     background-color: rgb(163, 0, 0);
@@ -152,9 +152,7 @@ hr {
     margin-right: 10px;
     border: 1px solid gray;
     width: 350px;
-    height: 50px;
-
-    
+    height: 50px;   
 }
 .input-bg{
     background-color: black;
@@ -251,7 +249,6 @@ hr {
 
 .st-flex {
     /* background-color: white; */
-    
     justify-content:center;
     align-items: center;
     width: 350px;
@@ -323,8 +320,6 @@ table {
     margin-right: 120px;
 }
 
-
-
 /*  */
 /* media auery */
 /*  */
@@ -382,14 +377,9 @@ table {
         flex-direction: column;
         align-items: center;
     }
-    .netflix-image {
-        display: none;
-    }
-    .language-select-nav-bar {
-        display: none;
-    }
-    .language-select-signin-div {
-        text-align: right;
+    .nav-bar {
+        justify-content: space-around;
+        padding: 10px;
     }
    .tv-img {
     width: 400px;
@@ -437,7 +427,12 @@ table {
         width: 250px;
         left: 0px;
     }
-    
+    svg {
+        transform: scale(0.8);
+    }
+    .language-select-signin-div {
+        transform: scale(0.832);
+    }
 }
 
 
@@ -455,7 +450,5 @@ table {
         bottom: 596px;
         left: 134px;
         z-index: 0;
-       }
-
-    
+       }   
 }
